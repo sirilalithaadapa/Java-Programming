@@ -1,0 +1,43 @@
+                                                                    LIST OF EXPERIMENTS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                     
+                                                                     
+                                                                     
+               1.)      Create a class called Invoice that a hardware store might use to represent an invoice for an item sold at the store. An Invoice should include four pieces of
+                  information as instance variables-a part number (type String), a part description (type String),a quantity of the item being purchased (type int) and a price per item
+                  (double). Your class should have a constructor that initializes the four instance variables. Provide a set and a get method for each instance variable. In addition,
+                  provide a method named getInvoiceAmount() that calculates the invoice amount (i.e., multiplies the quantity by the price per item), then returns the amount as a
+                  double value. If the quantity is not positive, it should be set to 0. If the price per item is not positive, it should be set to 0.0. Write a test application named
+                  InvoiceTest that demonstrates class Invoice’s capabilities.
+              2.)     Develop a Java application to generate Electricity bill. Create a class with following members: Consumer no., consumer name, previous month reading,
+                  current month reading, and type of EB connection (i.e. domestic or commercial). Compute the bill amount using the following tariff.   
+                  If the type of the EB connection is domestic, calculate the amount to be paid as follows:
+                                     First 100 units - Rs. 1per unit, 101-200units - Rs. 2.50per unit
+                                     201 -500 units - Rs. 4per unit, >501 units - Rs. 6per unit
+                  If the type of the EB connection is commercial, calculate the amount to be paid as follows:
+                                     First 100 units - Rs. 2per unit, 101-200units - Rs. 4.50per unit
+                                     201 -500 units - Rs. 6per unit, >501 units - Rs. 7per unit
+               3.)    Create class SavingsAccount. Use a static variable annualInterestRate to store the annual interest rate for all account holders. Each object of the class contains a
+                   private instance variable savingsBalance indicating the amount the saver currently has ondeposit. Provide method calculateMonthlyInterest to calculate the monthly
+                   interest by multiplying the savingsBalance by annualInterestRate divided by 12 this interest should be added to savingsBalance. Provide a static method
+                   modifyInterestRate that sets the annualInterestRate to a new value.Write a program to test class SavingsAccount. Instantiate two savingsAccount objects,
+                   saver1 and saver2, with balances of $2000.00 and $3000.00, respectively. Set annualInterestRate to 4%, then calculate the monthly interest and print the new
+                   balances for both savers. Then set the annualInterestRate to 5%, calculate the next month’s interest and print the new balances for both savers.
+                                                 
+               4.)     Create a class called Book to represent a book. A Book should include four pieces of information as instance variables‐a book name, an ISBN number, an author
+                   name and a publisher. Your class should have a constructor that initializes the four instance variables. Provide a mutator method and accessor method (query  method)
+                   for each instance variable. In addition, provide a method named getBookInfo() that returns the description of the book as a String (the description
+                   should include all the information about the book). You should use this keyword in member methods and constructor. Write a test application named BookTest to
+                   create an array of object for 30 elements for class Book to demonstrate the class Book's capabilities.                                                 
+             
+              5.)      (Binary Search)  To search for a word in a dictionary, you don’t review all the words; you just check one word in the middle and thus narrow down the set of remaining 
+                   words to check. The divide and conquer principle may be helpful to search for a given word in a dictionary. Consider a sorted a list of numbers to apply the principle. 
+                   Implement java code to search for a given word in a dictionary.                                             
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     

@@ -2,7 +2,7 @@ Package test_project;
 
 public class Testproject {
 	public static void main(String[] args){
-		//Relational operator +,-,*,/
+		//Relational operator
 		
 
 		int a = 10;

@@ -21,13 +21,13 @@ public class RailwayTicket {
     }
     public void update()
         if (coach.equalsIgnoreCase("First_AC")) {
-            totalamt = amt + 700;
+            totalamt = amount + 700;
         } else if (coach.equalsIgnoreCase("Second_AC")) {
-            totalamt = amt + 500;
+            totalamt = amount  + 500;
         } else if (coach.equalsIgnoreCase("Third_AC")) {
-            totalamt = amt + 250;
+            totalamt = amount  + 250;
         } else if (coach.equalsIgnoreCase("sleeper")) {
-            totalamt = amt;    
+            totalamt = amount;    
     }
     public void display() {
         System.out.println("Name: " + name);

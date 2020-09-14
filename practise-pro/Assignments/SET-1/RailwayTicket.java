@@ -1,44 +1,47 @@
-//RailwayTicket----> SIRI LALITHA 
+//RailwayTicket----> SIRI LALITHA  
 
-
-import java.io.*;
 import java.util.Scanner;
-class RailwayTicket{
-    String name,coach;
-    Long phonenum;  //phone number
-    int amount,totalamt;
-    void accept()   throws IOExceptioons{
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter Passenger's Name:");
-        phonenum = sc.nextInt();
-        System.out.println("Enter Coach (FirstAC/SecondAC/ThirdAC/Sleeper):");
-        coach = sc.next();
-        System.out.println("Enter basic amount of ticket: ");
-        amount = sc.next();
+
+public class RailwayTicket {
+    String name;
+    String coach;
+    long phonenumber;
+    int amount;
+    int totalamt;
+    public void accept() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter name: ");
+        name = scanner.nextLine();
+        System.out.print("Enter coach: ");
+        coach = scanner.nextLine();
+        System.out.print("Enter phonenumber: ");
+        phonenumber = scanner.nextLong();
+        System.out.print("Enter amount: ");
+        amount = scanner.nextInt();
     }
-    if(Coach.equals("First_AC")){
-        totalamt = amount + 700 ;
-    }else if(coach.equals("Second_AC"))
-        totalamt = ammount + 500;
-    else if(coach.equals!"Third_AC")
-        totalamt = ammount +250;
-    else {
-        totalamt = ammount ;
+    public void update()
+        if (coach.equalsIgnoreCase("First_AC")) {
+            totalamt = amt + 700;
+        } else if (coach.equalsIgnoreCase("Second_AC")) {
+            totalamt = amt + 500;
+        } else if (coach.equalsIgnoreCase("Third_AC")) {
+            totalamt = amt + 250;
+        } else if (coach.equalsIgnoreCase("sleeper")) {
+            totalamt = amt;    
     }
-    void display(){
-        System.out.println("\n\n Name:" +name);
-        System.out.println("Coach :" +coach);
-        System.out.println("TotalAmount :" +totalamt);
-        System.out.println("Phone No.:" +phonenum);
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Coach: " + coach);
+        System.out.println("Mobile  Number: " + phonenumber);
+        System.out.println("Amount: " + amount);
+        System.out.println("Total Amount: " + totalamt);
     }
-    public static void main(String args[])
-        throws IOException{
-        RailwaysTicket t = new RailwayTicket);
-        t.accept();
-        t.update();
-        t.display();
+    void main() {
+        RailwayTicket railwayTicket = new RailwayTicket();
+        railwayTicket.accept();
+        railwayTicket.update();
+        railwayTicket.display();
     }
 }
-    
        
     

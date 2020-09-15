@@ -97,8 +97,8 @@ public class BankAccountTest2
     public static void main(String[] args)
     {
         // create two BankAccount objects
-        BankAccount first = new BankAccount("1111111", 20000);
-        BankAccount second = new BankAccount("2222222", 30000);
+        BankAccount first = new BankAccount("1111111", 100000);
+        BankAccount second = new BankAccount("2222222", 50000);
 
         // print initial balances
         System.out.printf("Account #%s has initial balance of $%.2f%n",

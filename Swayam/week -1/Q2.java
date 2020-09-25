@@ -23,4 +23,6 @@ if(x >= y && x >= z)
           result = z;
         }
 System.out.println(result);
+       }
+}	
 		

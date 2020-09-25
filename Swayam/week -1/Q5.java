@@ -32,7 +32,7 @@ public class Exercise1_5{
         }
 
 	result = max;
-	mark_avg = sum(arr.length);
+	mark_avg = sum/(arr.length);
 	System.out.println(result);
 	System.out.println(mark_avg);
   }

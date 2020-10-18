@@ -2,7 +2,7 @@ package Experiments;
 
 import java.util.Scanner;
 
-// @SIRI LALITHA 
+//@SIRI LALITHA 
 public class RationalNumber {
 	public static int gcd(int n1, int n2) {
 		

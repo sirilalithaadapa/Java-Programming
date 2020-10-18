@@ -33,3 +33,5 @@ public class RationalNumber {
 		System.out.println(n1 + " / " + n2 + " Should be represented as " + dn1 + " / " + dn2);
 	}
 }
+
+

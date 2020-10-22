@@ -18,6 +18,7 @@ class Employee{
         System.out.println("Enter the Employee Mobile number");
         Mobile_number= sc.nextInt();
     }
+    
     public void Emp_details(){
         System.out.println("------------------------PAY SLIP----------------------------");
         

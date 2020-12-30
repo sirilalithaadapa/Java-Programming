@@ -10,6 +10,8 @@ class Employee {
 	String MailId;
 	String MobileNo;
 	
+
+	
 	void display() {
 		System.out.println("Name: " + EmployeeName);
 		System.out.println("ID: " + id);

@@ -11,3 +11,8 @@
 * [Experiment 9](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/Employee.java)
 * [Experiment 10](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/RationalNumber.java)
 * [Experiment 11](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/Shape.java)
+* [Experiment 12](https://github.com/sirilalithaadapa/Java-Programming/tree/master/Experiments/Converter)
+* [Experiment 13](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/ExceptionHandling.java)
+* [Experiment 15](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/Experiment15.java)
+* [Experiment 18](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/WordCount.java)
+* [Experiment 19](https://github.com/sirilalithaadapa/Java-Programming/blob/master/Experiments/Experiment19.java)

@@ -2,7 +2,9 @@ package Experiments;
 
 import java.util.Scanner;
 
-public class Validate {
+// Expression - 8
+
+public class ValidateUserName {
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		
@@ -17,7 +19,7 @@ public class Validate {
 				System.out.println("Valid Username :)");
 			} else {
 				System.out.println("InValid Username :(");
-				System.out.println("Username should ony contain Numbers, Letters and Underscore.");
+				System.out.println("Username should only contain Numbers, Letters and Underscore.");
 			}
 		} else {
 			System.out.println("Username should be 8 to 15 characters long.");

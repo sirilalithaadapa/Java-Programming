@@ -2,7 +2,7 @@ public class RollingDice {
 	public static void main(String[] args) {
 		int rolls = 10000;
 		int count = 0;
-		for (int i=0; i < 1000; i++) {
+		for (int i=0; i < rolls; i++) {
 			int dice1 = (int) (Math.random() * 10) % 6;
 			int dice2 = (int) (Math.random() * 10) % 6;
 			

@@ -80,7 +80,7 @@ public class MergeSort{
             k++;
         }
 
-        while (i < n2) {
+        while (j < n2) {
             arr[k] = right[j];
             j++;
             k++;
